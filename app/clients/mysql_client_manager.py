@@ -27,7 +27,7 @@ class MySQLClientManager:
         self.engine: AsyncEngine | None = None
         # session_factory 用来按需创建新的 AsyncSession
         self.session_factory = None
-        # 保存数据库配置，后面拼接连接地址要用
+        # 保存数据库配置，后面拼接连接地址要用 okok
         self.config = config
 
     def _get_url(self) -> str:
