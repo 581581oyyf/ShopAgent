@@ -1,0 +1,18 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(ssh *)",
+      "Bash(pip install *)",
+      "Bash(python -c ' *)",
+      "Bash(python *)",
+      "Bash(python3 -c ' *)",
+      "Bash(tail -500 \"C:/Users/Administrator/.claude/projects/D--pythonProject-shopkeeper-agent/d795346b-23cb-45fb-ac8a-ced8af0045e6.jsonl\")",
+      "Read(//tmp/**)",
+      "Bash(awk '{print $2}')",
+      "Bash(sshpass *)",
+      "Bash(uv run *)",
+      "Bash(git checkout *)",
+      "Bash(ECC_GATEGUARD=off git branch -a)"
+    ]
+  }
+}

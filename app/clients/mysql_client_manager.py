@@ -58,7 +58,9 @@ class MySQLClientManager:
 meta_mysql_client_manager = MySQLClientManager(app_config.db_meta)
 dw_mysql_client_manager = MySQLClientManager(app_config.db_dw)
 
+
 if __name__ == "__main__":
+    # 创建全局唯一的client。
     dw_mysql_client_manager.init()
 
     async def test():
