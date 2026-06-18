@@ -59,3 +59,17 @@ Thumbs.db
 
 # Local TEI embedding model files (large)
 docker/embedding/
+
+# Local tutorial / interview notes
+docs/dataagent-50-beginner-interview-qa.md
+docs/dataagent-high-concurrency-ha-cost-defense-guide.md
+docs/dataagent-online-resources.md
+docs/es-index-design-interview.md
+docs/langgraph-vs-langchain-agent-interview.md
+docs/metadata-knowledge-base-interview.md
+docs/pressure-interview-question-bank.md
+docs/project-gap-analysis-and-hard-questions.md
+docs/qdrant-vs-milvus-vs-pinecone-interview.md
+docs/shopkeeper-agent-enterprise-dataagent-interview.md
+docs/sql-validation-and-correction-interview.md
+README.md
